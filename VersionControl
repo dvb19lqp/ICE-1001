@@ -1,2 +1,4 @@
 $ cd my-paper
 $ git remote add overleaf https://git.overleaf.com/5e7292a7cee21d0001fc975c
+$ git checkout master
+$ git pull overleaf master --allow-unrelated-histories
